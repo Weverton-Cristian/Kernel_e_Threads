@@ -1,6 +1,6 @@
-#include <linux/module.h>  /* Needed by all modules */
-#include <linux/kernel.h>  /* Needed for KERN_ALERT */
-#include <linux/init.h>    /* Needed for init and exit macros */
+#include <linux/module.h>  
+#include <linux/kernel.h>  
+#include <linux/init.h>   
 
 static int __init meu_inicio(void)
 {
